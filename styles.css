@@ -1,0 +1,57 @@
+body {
+  background-color: lightslategray;
+}
+h1 {
+  margin: 50px;
+  margin-bottom:10px;
+}
+h2 {
+  color: blue;
+  margin: 50px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+h3 {
+  color: black;
+  margin: 50px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+h4 {
+  margin: 50px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+h5 {
+  margin: 50px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+p {
+  color: darkgray;
+  border: 2px lightgray;
+  padding: 30px;
+  margin: 50px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+img{
+  margin: 50px;
+}
+i{
+  margin: 50px;
+  line-height: 0.1;
+}
+a:hover {
+  color:limegreen;
+  background-color: orange;
+}
+.container{
+  position: relative;
+  text-align: center;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 77px;
+  left: 175px;
+}
