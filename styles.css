@@ -1,12 +1,16 @@
 body {
   background-color: black;
 }
+a{
+  margin: 50px;
+}
 h1 {
   color: whitesmoke;
   margin: 50px;
   margin-bottom:10px;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 25px;
 }
 h2 {
   color: blue;
@@ -41,8 +45,27 @@ p {
   margin-top:20px;
   margin-bottom:10px;
 }
-img{
- 
+div.column{
+  border: 3px solid white; 
+  width: 42%;
+  padding: 25px;
+  float: left;
+  clear: right;
+  overflow: auto;
+  margin: 25px;
+}
+div.container{
+  position: relative;
+  border: 1px dotted white; 
+  width: auto;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  margin: 25px;
+  padding: 15px;
+}
+img.hover:hover{
+  background-color: darkgray;
 }
 i{
   color: white;
@@ -52,13 +75,6 @@ i{
 a:hover {
   color:limegreen;
   background-color: orange;
-}
-.container{
-  position: relative;
-  padding-top: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
 }
 .bottom-left {
   position: absolute;
